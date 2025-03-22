@@ -1,0 +1,6 @@
+---
+- name: Prerun checks
+  hosts: all
+  roles:
+    - role: tixsalvador3.uptime
+    - role: tixsalvador3.docker

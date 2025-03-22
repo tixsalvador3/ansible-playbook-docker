@@ -1,0 +1,4 @@
+# Install syntax: $ ansible-galaxy install -r requirements.yml
+roles:
+  - src: tixsalvador3.uptime
+  - src: tixsalvador3.docker
